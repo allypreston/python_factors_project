@@ -21,3 +21,7 @@ wanted to have the function allow floats of the format 15.0 as 15, as this makes
 
 blockers    - file became bloated - abstracted the file to ensure it wasnt too heavy
             - test was failing as it was still running off the legacy function
+
+## - 5 created readme file
+wanted a readme file to aid users in their use of the function and explain the full contents concisely
+
