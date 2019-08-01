@@ -7,7 +7,8 @@
 def functionfactor(numbertotest):
     # we need to ensure the input to the function was an int, so we run it through the following code
     try:
-        numbertotest = int(numbertotest)
+        # we cast it as an string first, otherwise this operation rounds floats
+        numbertotest = int(str(numbertotest))
         # if the number is an integer run the code
         # we now create a blank variable to hold our output
         output = ""

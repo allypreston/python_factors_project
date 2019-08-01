@@ -32,9 +32,10 @@ print(functionfactor(65) == "plang")
 print("Testing inputs that should work, integer values as strings")
 print(functionfactor("70") == "plangplong")
 print(functionfactor("28") == "plong")
-print(functionfactor(15.0) == "plingplang")
 
 print("Testing inputs that shouldn't work, non integer values")
 print(functionfactor("hello world") == "error in input, please ensure only a whole number is used")
-
+print(functionfactor("sixteen") == "error in input, please ensure only a whole number is used")
+print(functionfactor(3.14) == "error in input, please ensure only a whole number is used")
+print(functionfactor(-2.57) == "error in input, please ensure only a whole number is used")
 
