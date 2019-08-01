@@ -7,11 +7,14 @@ from inttester import *
 
 
 # define the function, with the input of the number
-def functionfactor(numbertotest):
+def functionfactor(numberinput):
     # we need to ensure the input to the function was an int, so we run it through the following code
-    try:
-        # we cast it as an string first, otherwise this operation rounds floats
-        numbertotest = int(str(numbertotest))
+    # we cast it as an string first, otherwise this operation rounds floats
+    numbertotest = inttester(numberinput)
+
+    if numbertotest == "error in input, please ensure only a whole number is used":
+        return numbertotest
+    else:
         # if the number is an integer run the code
         # we now create a blank variable to hold our output
         output = ""
@@ -37,9 +40,7 @@ def functionfactor(numbertotest):
             # if empty then set output to our original number, as a string
             output = str(numbertotest)
 
-        # print to display the output
-        return output
+            # print to display the output
+            return output
 
-    except:
-        # if not an integer then return a helpful output
-        return("error in input, please ensure only a whole number is used")
+print(functionfactor(15))
