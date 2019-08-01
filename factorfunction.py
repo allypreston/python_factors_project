@@ -5,9 +5,10 @@ numbertotest = int(numbertotest)
 output = ""
 
 # run the modulus argument on the number for 3, check if it gives no remainder
-if numbertotest % 3 == 0:
-    # if true add the string to our output placeholder
-    output += "pling"
+try:
+    if numbertotest % 3 == 0:
+        # if true add the string to our output placeholder
+        output += "pling"
 
     # run the modulus argument on the number for 5, check if it gives no remainder
     if numbertotest % 5 == 0:
@@ -26,3 +27,8 @@ if numbertotest % 3 == 0:
 
     # print to display the output
     print(output)
+
+except:
+    # if not an integer then return a helpful output
+    print("error in input, please ensure only a whole number is used")
+
