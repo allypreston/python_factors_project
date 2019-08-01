@@ -3,7 +3,8 @@
 # itself is returned
 
 # imports a function to test if a number is an integer, or a float ending in zero
-from inttester import *
+# this is the old version, if you insert a value such as 27.0 it will not run, whereas the new
+# version will run as if you passed 27 in
 
 
 # define the function, with the input of the number
