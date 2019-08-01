@@ -6,8 +6,7 @@ def inttester(numberinput):
         numbertotest = int(str(numberinput))
         return numbertotest
     except:
-        print(numberinput)
-        #check if the number is an exact float ending in .0
+        # check if the number is an exact float ending in .0
         try:
             numbertotest = int(numberinput)
             if numberinput - numbertotest == 0:
@@ -18,3 +17,5 @@ def inttester(numberinput):
         except:
             # if not an integer then return a helpful output
             return "error in input, please ensure only a whole number is used"
+
+print(inttester(15.0))

@@ -1,6 +1,6 @@
 # This file tests the function and ensures all inputs are working correctly
 
-from factorfunctionlegacy import *
+from factorfunction import *
 
 print("Testing the function with various inputs, all the results are manually created")
 
@@ -32,6 +32,7 @@ print(functionfactor(65) == "plang")
 print("Testing inputs that should work, integer values as strings and floats")
 print(functionfactor("70") == "plangplong")
 print(functionfactor("28") == "plong")
+print(functionfactor(15) == "plingplang")
 print(functionfactor(15.0) == "plingplang")
 
 print("Testing inputs that shouldn't work, non integer values")
