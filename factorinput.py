@@ -7,4 +7,4 @@ from factorfunction import *
 print("please input the number to test")
 
 # fetch the input as a string, but format it to be an int so we can run the function on it
-functionfactor(input("number = "))
+print(functionfactor(input("number = ")))

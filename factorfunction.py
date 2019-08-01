@@ -5,7 +5,6 @@
 
 # define the function, with the input of the number
 def functionfactor(numbertotest):
-    print(numbertotest)
     # we need to ensure the input to the function was an int, so we run it through the following code
     try:
         numbertotest = int(numbertotest)
@@ -35,8 +34,8 @@ def functionfactor(numbertotest):
             output = str(numbertotest)
 
         # print to display the output
-        print(output)
+        return output
 
     except:
         # if not an integer then return a helpful output
-        print("error in input, please ensure only a whole number is used")
+        return("error in input, please ensure only a whole number is used")
