@@ -28,8 +28,3 @@ blockers
 ## - 5 created readme file
 wanted a readme file to aid users in their use of the function and explain the full contents concisely
 
-## - 6 incorporating more input parameters
-Wanted the function to be allowed to be passed a list, interpret each entry and return the appropriate output
-
-
-
