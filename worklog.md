@@ -28,3 +28,5 @@ blockers
 ## - 5 created readme file
 wanted a readme file to aid users in their use of the function and explain the full contents concisely
 
+## -6 created lightweight version of function
+created a version of the function that is only for integers to be passed into.
