@@ -5,7 +5,7 @@
 
 # define the function, with the input of the number
 def functionfactor(numbertotest):
-
+    output = ""
         # run the modulus argument on the number for 3, check if it gives no remainder
     if numbertotest % 3 == 0:
         # if true add the string to our output placeholder

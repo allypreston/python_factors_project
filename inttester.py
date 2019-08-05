@@ -17,5 +17,3 @@ def inttester(numberinput):
         except:
             # if not an integer then return a helpful output
             return "error in input, please ensure only a whole number is used"
-
-print(inttester(15.0))
